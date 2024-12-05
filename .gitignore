@@ -1,0 +1,36 @@
+# Ignorar pastas de build de projetos
+.gradle/
+build/
+bin/
+out/
+
+# Ignorar arquivos gerados por ferramentas de IDE
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Ignorar Terraform
+.terraform/
+eks-fastfood/.terraform/
+app-fastfood/.terraform/
+
