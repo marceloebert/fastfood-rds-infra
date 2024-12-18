@@ -62,3 +62,9 @@ O repositório utiliza variáveis para personalizar a infraestrutura. Aqui estã
    ```bash
    git clone <repo-url>
    cd <repo-folder>
+   terraform init
+   terraform plan 
+   terraform apply 
+
+
+
