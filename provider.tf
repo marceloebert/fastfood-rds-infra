@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "rds-fastfood-tf-state"
+    bucket = "rds-fastfood-state"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
